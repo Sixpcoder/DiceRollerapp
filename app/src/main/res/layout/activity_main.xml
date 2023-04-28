@@ -11,10 +11,10 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="174dp"
-        android:layout_height="151dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="158dp"
+        android:layout_height="116dp"
         android:layout_gravity="center"
+        android:layout_marginTop="30dp"
         app:srcCompat="@drawable/logo" />
 
     <TextView
@@ -31,14 +31,13 @@
        />
 
 
-
     <LinearLayout
-        android:layout_width="409dp"
+        android:layout_width="wrap_content"
         android:layout_height="338dp"
         android:background="@drawable/tfive"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf=""
-        tools:layout_editor_absoluteX="1dp">
+
+        >
 
 
         <ImageView
@@ -53,14 +52,15 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="126dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
 
-        android:backgroundTint="@color/material_on_surface_stroke"
+        android:backgroundTint="@color/red"
         android:text="ROLL"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
+
 
         android:textSize="25dp"
         android:textStyle="bold" />
